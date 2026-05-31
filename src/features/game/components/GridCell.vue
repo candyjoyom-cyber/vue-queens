@@ -5,7 +5,7 @@ defineProps(["content", "color", "invalid"]);
 <template>
   <div class="cell" :class="{ invalid }" :style="{ backgroundColor: color }">
     <img v-if="content === 'queen'" src="@/assets/crown.png" class="queen" />
-    <span v-if="content === 'marked'">×</span>
+    <span v-if="content === 'marked'">♡</span>
   </div>
 </template>
 
@@ -45,5 +45,9 @@ defineProps(["content", "color", "invalid"]);
 .queen {
   width: 24px;
   height: 24px;
+}
+
+.cell span {
+  color: #000;
 }
 </style>

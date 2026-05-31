@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <h1>A Game of Queens</h1>
-    <p>Have fun. Always.</p>
+    <p>The number of solutions is u + me.</p>
   </div>
 </template>
 
@@ -12,13 +12,13 @@
 }
 
 .header h1 {
-  color: #e39fff;
+  color: #cb51fc;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 350;
   margin: 0;
 }
 
 .header p {
-  color: #bfbfbf;
+  color: #ffffff;
 }
 </style>
