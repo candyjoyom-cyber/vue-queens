@@ -4,7 +4,7 @@
 
 <style scoped>
 button {
-  background: #9f39e3;
+  background: #ec70ff;
   border: none;
   border-radius: 4px;
   padding: 6px 12px;

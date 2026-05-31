@@ -1,5 +1,5 @@
 export const cellColors = {
-    1: "#9bfcf1",
+    1: "#3ec3f4",
     2: "#ffd47e",
     3: "#ff9f4b",
     4: "#94b7ff",
